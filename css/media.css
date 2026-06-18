@@ -27,14 +27,14 @@
   .h-logo {
     margin-bottom: 20px;
   }
-  .first-child{
-         order: 1;
-         width: 100%;
+  .first-child {
+    order: 1;
+    width: 100%;
   }
   .left-child {
     order: 2;
   }
-  .middel-child{
+  .middel-child {
     order: 3;
   }
   .left-data-info {
@@ -53,65 +53,67 @@
 
   /* =========================== start  first section  style ============================= */
   .f-s-parent {
-  display: block;
-}
-.f-s-child {
-  margin-bottom: 20px;
-}
-.f-s-child-h3{
+    display: block;
+  }
+  .f-s-child {
+    margin-bottom: 20px;
+  }
+  .f-s-child-h3 {
     font-size: 1.875rem;
     font-weight: 700;
     line-height: 2.5rem;
-    color:#101828;
-
-}
-.date-column,
-.status-column,
-.money-column{
-  display: none;
-}
+    color: #101828;
+  }
+  .date-column,
+  .status-column,
+  .money-column {
+    display: none;
+  }
   /* =========================== end  first section  style ============================= */
 
   /* =========================== start  second section  style ============================= */
   .sec-section-parent {
-  display: block;
-}
-.section2-grid-parent {
-  display: grid;
-  grid-template-columns: 60% 40% ;
-}
+    display: block;
+  }
+  .section2-grid-parent {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
 
   /* =========================== end  second section  style ============================= */
 
   /* ================================================== start   third section   style ========================================================== */
-.third-section-parent {
-  display:block;
-}
+  .third-section-parent {
+    display: block;
+  }
   /* ================================================== end   third section   style ========================================================== */
- 
-  /* ================================================== start   fourth section   style ========================================================== */
- .flibcard {
-  width: 100%;
-  /* margin-bottom: 70px; */
-  position: relative;
-  transform-style: preserve-3d;
-  transition: 0.5s;
-  height: 200px;
-}
- .flibcard img {
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-}
-  /* ================================================== end   fourth section   style ========================================================== */
 
+  /* ================================================== start   fourth section   style ========================================================== */
+  .flibcard {
+    width: 100%;
+    /* margin-bottom: 70px; */
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    height: 200px;
+  }
+  .flibcard img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+  }
+    .sec3-f-ch-p-child {
+
+    width: 100%;
+  }
+  /* ================================================== end   fourth section   style ========================================================== */
 }
 @media (min-width: 884px) and (max-width: 1104px) {
   aside {
     width: 10%;
     visibility: visible;
   }
-    main {
+  main {
     width: 90%;
     padding-inline: 3%;
   }
@@ -120,8 +122,9 @@
     padding: 18px;
     overflow-y: auto;
   }
-  .aside-header{
-display: block;}
+  .aside-header {
+    display: block;
+  }
   .aside-header-data h1,
   .aside-h-d-p,
   .icn-span,
@@ -130,17 +133,17 @@ display: block;}
     display: none;
   }
   .aside-header-icon {
-  width: 50px;
-  height: 50px;
-  background-color: #2954f4;
-  border-radius: 15px;
-  color: #fff;
-  font-size: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-font-size: 20px;
-}
+    width: 50px;
+    height: 50px;
+    background-color: #2954f4;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
   .aside-btn {
     padding: 0px;
     margin-bottom: 12px;
@@ -161,47 +164,44 @@ font-size: 20px;
   .home a i {
     color: #1447e6;
   }
-    /* =========================== start  first section  style ============================= */
+  /* =========================== start  first section  style ============================= */
 
-.f-s-child-h3{
+  .f-s-child-h3 {
     font-size: 1.875rem;
     font-weight: 700;
     line-height: 2.5rem;
-    color:#101828;
-
-}
+    color: #101828;
+  }
   /* =========================== end  first section  style ============================= */
 
   /* =========================== start  second section  style ============================= */
   .sec-section-parent {
-  display: block;
-}
-.sec-section-right{
-  display: grid;
-  grid-template-columns: 49% 49%;
-  gap: 2%;
-}
+    display: block;
+  }
+  .sec-section-right {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+  }
+
   /* =========================== end  second section  style ============================= */
   /* =========================== start  third section  style ============================= */
   .third-section-parent {
-  display: grid;
-  grid-template-areas:
-   "area2 area3   "
-    "area1 area4   "
-    ".      area4   "
-   
-;
-  gap: 10px;
-}
-.sec3-4-ch-card-parent{
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-}
-.sec3-fourth-child{
-height: fit-content;
-
-}
+    display: grid;
+    grid-template-areas:
+      "area2 area3   "
+      "area1 area4   "
+      ".      area4   ";
+    gap: 10px;
+  }
+  .sec3-4-ch-card-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sec3-fourth-child {
+    height: fit-content;
+  }
   /* =========================== end  third section  style ============================= */
 }

@@ -633,20 +633,22 @@ header {
 .third-section-parent {
   display: grid;
   grid-template-areas:
-    "area1 area1 area2  area4 area4 area4"
-    "area1 area1 area2  area4 area4 area4"
-    "area1 area1 area3  area4 area4 area4"
-    "area1 area1 .       .     .    .    ";
+    "area1 area1 area1 area2  area4 area4 area4"
+    "area1 area1 area1 area2  area4 area4 area4"
+    "area1 area1 area1 area3  area4 area4 area4"
+    "area1 area1 area1 .       .     .    .    ";
   gap: 10px;
 }
 .sec3-child {
   background-color: #fff;
   border-radius: 12px;
   padding: 24px;
+  margin-bottom: 20px;
 }
 .sec3-first-child {
   grid-area: area1;
   height: auto;
+  width: 100%;
 }
 .sec3-second-child {
   grid-area: area2;
@@ -667,6 +669,7 @@ header {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  width: 255px;
 }
 .inner-top-right-p {
   font-size: 14px;
